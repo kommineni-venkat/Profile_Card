@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kommineni Venkat - Profile Card</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/1ov5nFfXq5B9YUeGisePoJ7z7xjpvERDKoA4mc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div class="card" data-state="#about">
+    <div class="card-header">
+        <div class="card-cover" style="background-image: url('https://images.unsplash.com/photo-1550275994-0a68123452ba?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></div>
+        <img class="card-avatar" src="venkat pic.jpg" alt="avatar" />
+        <h1 class="card-fullname">Kommineni Venkat</h1>
+        <h2 class="card-jobtitle">MERN Developer</h2>
+    </div>
+    <div class="card-main">
+        <div class="card-section is-active" id="about">
+            <div class="card-content">
+                <div class="card-subtitle">ABOUT</div>
+                <p class="card-desc">I am Kommineni Venkat, a passionate MERN stack developer with a strong foundation in JavaScript, React, Node.js, and MongoDB. My journey began in December 2023, where I started my career as a MERN developer at Tech, and continued until March 2024. I am currently seeking new opportunities to apply my skills and contribute to innovative projects.</p>
+            </div>
+            <div class="card-social">
+                <!-- Social Media Links -->
+                <a href="https://github.com/kommineni-venkat" target="_blank">
+                    <i class="fab fa-github">G</i>
+                </a>
+                <a href="https://linkedin.com/in/komminenivenkat" target="_blank">
+                    <i class="fab fa-linkedin">I</i>
+                </a>
+                <a href="https://www.instagram.com/venky__chowdhary/" target="_blank">
+                    <i class="fab fa-instagram">I</i>
+                </a>
+            </div>
+        </div>
+        <div class="card-section" id="experience">
+            <div class="card-content">
+              <div class="card-subtitle">WORK EXPERIENCE</div>
+              <div class="card-timeline">
+                <div class="card-item" data-year="2024">
+                  <div class="card-item-title">MERN Stack Developer at <span>Techisor</span></div>
+                  <div class="card-item-desc">At Techsior, our team leveraged the MERN stack to develop a cutting-edge CRM system, enhancing customer engagement and operational efficiency through intuitive interfaces and robust backend capabilities.</div>
+                </div>
+                <div class="card-item" data-year="Dec">
+                  <div class="card-item-title">Business Development Executive at <span>Niveshrtha</span></div>
+                  <div class="card-item-desc">As a Business Development Executive at Niveshrtha, my role involves strategically acquiring clients, offering competitive stock solutions, and meticulously maintaining strong relationships to ensure client satisfaction and loyalty.</div>
+                </div>
+                <div class="card-item" data-year="2023">
+                  <div class="card-item-title">Data Science Intern at <span>Prodigy Infotech</span></div>
+                  <div class="card-item-desc">As a Data Science Intern at Prodigy Infotech, I developed predictive models and optimized performance across various datasets, contributing significantly to the company's analytical capabilities from January to May 2023.</div>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        <div class="card-section" id="contact">
+            <div class="card-content">
+                <div class="card-subtitle">CONTACT</div>
+                <div class="card-contact-wrapper">
+                    <div class="card-contact">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        Podili , Prakasam Dist Andhra Pradesh
+                    </div>
+                    <div class="card-contact">
+                        <svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                        </svg>
+                        9390690192
+                    </div>
+                    <div class="card-contact">
+                        <svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2.9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <path d="M22 6l-10 7L2 6"/>
+                        </svg>
+                        komminenivenkat101@gmail.com
+                    </div>
+                    <button class="contact-me">Be In Touch With Me</button>
+                </div>
+            </div>
+        </div>
+        <div class="card-buttons">
+            <button data-section="#about" class="is-active">ABOUT</button>
+            <button data-section="#experience">EXPERIENCE</button>
+            <button data-section="#contact">CONTACT</button>
+        </div>
+    </div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
